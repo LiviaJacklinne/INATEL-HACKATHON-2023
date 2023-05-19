@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #eeee;
+}
+
+body {
+    background-color:#2E2E2E;
+}
+.header {
+    background-color: #6170F3;
+    height: 60px;
+    text-align: center;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+#titulo {
+    padding-top: 18px;
+    font-size: 25px;
+}
+
+#nome-app {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.grafico-downlink img {
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.grafico-downlink {
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.botao-grafico {
+    border: solid 1px #D9D9D9;
+    padding: 8px;
+    background-color: #eeee;
+}
+
+.botao-grafico a {
+    color: black;
+}
+
+.down, .up, .up-down {
+    background-color: #2E2E2E;
+}
+
+#down, #up, #up-down {
+    color: #eeee;
+}
+
+.texto-up-down {
+    font-size: 20px;
+}
+
+.dia {
+    border: solid 1px #D9D9D9;
+    padding: 17px;
+    background-color: #5361E4;
+    font-size: 20px;
+}
+
+.week-days {
+    margin-bottom: 71.5px;
+}
+
+.segunda, .terca {
+    background-color: #2A3DEB;
+}
+
+.footer {
+    background-color: #6170F3;
+    height: 70px;
+}
+
+.barra-menu img {
+    width: 40px;
+}
+
+.home {
+    padding: 15px;
+    align-items: center;
+    /* border-radius: 10px; */
+    background-color: #2929295d;    
+} 
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #eeee;
+}
+
+body {
+    background-color:#2E2E2E;
+}
+
+.img-grafico img {
+    width: 500px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.img-grafico {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    color: #ffff;
+    padding-top: 17px;
+    font-size: 20px;
+}
+
+.container1, .container2, .container3 {
+    /* width:360px; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;  
+    
+}
+
+.logo-app img {
+    width: 50px;  
+    padding-top: 3px;
+}
+
+.ifood img {
+    width: 50px;  
+    height: 50px;
+    padding-top: 3px;
+}
+
+.logo { 
+    /* margin-bottom: 40px; */
+    border: solid 3px #eeee;
+    border-width: 10px;
+    border-radius: 10px;
+    background-color: #eeee;    
+}
+
+.nome-app {
+    color: #eeee;
+    /*border: solid 1px green; */
+    text-align: center;
+}
+
+.footer {
+    background-color: #6170F3;
+    height: 70px;
+}
+
+.barra-menu img {
+    width: 40px;
+}
+
+.home {
+    padding: 15px;
+    align-items: center;
+    /* border-radius: 10px; */
+    background-color: #2929295d;    
+} 
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
